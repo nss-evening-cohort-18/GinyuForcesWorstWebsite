@@ -1,5 +1,8 @@
 
 .jeiceHeader {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     border: black;
     border-radius: 10px;
     border-style:groove;
@@ -14,10 +17,11 @@ text-align: center;
 }
 
 .container {
+    vertical-align: top;
     border: black;
     border-radius: 10px;
     border-style: ridge;
-    margin-left: 75px;
+    margin: 50px;
     max-width: 800px;
     max-height: 800px;
 }

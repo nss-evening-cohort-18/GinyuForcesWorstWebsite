@@ -1,5 +1,8 @@
 
 .jeiceHeader {
+    border: black;
+    border-radius: 10px;
+    border-style:groove;
     text-align: center;
     font-size: 40px;
     font-family:'Times New Roman', Times, serif;
@@ -8,8 +11,32 @@
 
 .detail {
 text-align: center;
+}
+
+.container {
+    border: black;
+    border-radius: 10px;
+    border-style: ridge;
+    margin-left: 75px;
+    max-width: 800px;
+    max-height: 800px;
+}
 
 
+.pageLayout {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.navMenu {
+    display: flex;
+    flex-direction: column;
+    border: black 5px groove;
+    max-width: 150px;
+    height: 200px;
 }
 
 .center {
@@ -18,3 +45,4 @@ text-align: center;
     margin-right: auto;
     width: 50%;
 }
+

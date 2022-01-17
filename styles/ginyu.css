@@ -1,4 +1,32 @@
 .ginyu-header {
     text-align: center;
     font-size: 60px;
+    margin-top: 4%;
+}
+
+.nav-links {
+    display: flex;
+    flex-flow: column;
+    font-size: 30px;
+    align-self: flex-start;
+    
+}
+
+.bio {
+    display: flex;
+    flex: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.bio-main {
+    flex-basis: 20%;
+    font-size: 20px;
+    padding-left: 30%;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
